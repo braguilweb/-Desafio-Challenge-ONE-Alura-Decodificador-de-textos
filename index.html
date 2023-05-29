@@ -1,10 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Decodificador de textos</title>
+
 </head>
 <body>
+    <header>
+       
+        <img class="logo" src="/images/logo.png" alt="Logo de Guilherme Braga">
+        <h1>Decodificador de textos.</h1>
+        
 
+    </header>
+
+    <main>
+
+        <section class="encriptadores">
+            <div>
+                <textarea class="text-area"  cols="30" rows="10" placeholder="Digite seu texto aqui"></textarea>
+            </div>
+            <div>
+                <textarea id="mensagem" class="mensagem" cols="30" rows="10"></textarea>
+                
+            </div>
+            
+        </section>
+
+         
+        <p class="informacao">&#10152; Apenas letras minúsculas e sem acento!</p>      
+         
+       
+
+        <section class="area-botoes">
+            <div class="buttons">
+                <button id="bt-encriptar" class="btn-encriptar" onclick="btnEncriptar()"> Criptografar </button>
+                <button id="bt-desencriptar" class="btn-desencriptar" onclick="btnDesencriptar()"> Descriptografar </button>
+                <button id="bt-copiar" class="btn-copiar" onclick="btnCopiarTexto()"> Copiar </button>
+            </div>
+            
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por Guilherme Braga ::<a href="https://www.linkedin.com/in/guilherme-de-almeida-braga/"> LinkedIn</a> | <a href="https://github.com/braguilweb">GitHub</a> </p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+    
+    	
+    
 </body>
 </html>
