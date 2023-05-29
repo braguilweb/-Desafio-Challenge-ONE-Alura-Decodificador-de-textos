@@ -74,7 +74,7 @@ main p {
     }
 
 .mensagem {
-    background-image: url(/images/background.png);
+    background-image: url(background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #d8dFe8;
